@@ -117,10 +117,10 @@
 
         (draw-lissajous points)))))
 
-(q/defsketch lissajous-table
-             :host "host"
-             :size [800 500]
-             :setup setup
-             :draw draw)
+(q/sketch
+ :host "lissajous-table"
+ :size [800 500]
+ :setup setup
+ :draw draw)
 
 (defn -main [& _])
