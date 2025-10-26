@@ -12,4 +12,6 @@ REPL - run `(require 'lissajous-table.core)`.
 
 Lein - run `lein run`
 
+![lissajous-table](./picture/lissajous-table-preview.png)
+
 ## License
